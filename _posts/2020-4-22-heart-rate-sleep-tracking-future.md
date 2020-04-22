@@ -3,19 +3,27 @@ layout: post
 title: on heart-rate, sleep tracking, and the future
 ---
 
-<img src="https://github.com/maceip/maceip.github.io/blob/master/images/strap_header.jpg">
 
-the [quantified-self](https://en.wikipedia.org/wiki/Quantified_self) craze of 2010 finnally caught up with me in early 2020. i have sleep maintence problems, including waking up in the middle of the night (motn insomnia) or waking up early due to anxiety. i've had myocarditis a few times in the past, a minor heart condition. i also started a regular workout routine to help get through the coronavirus quarantine. all this culminated in a desire to better understand my sleep and heart rate, with an eye toward longevity. that and i keep hearing things about hrv. 
+| <img src="https://github.com/maceip/maceip.github.io/blob/master/images/strap_header.jpg"> | 
+|--:| 
+| *bling bling* |
 
-[heart rate variability (hrv)](https://en.wikipedia.org/wiki/Heart_rate_variability) is a time interval between heartbeats. athletes and people with podcasts have been extolling this metric as a proxy for physical recovery and as a predictor of sickness or injury. part of my interest in 24/7 heart rate tracking was to tap into this to get actionable insights. all other health data to date has been  "so-what" or "i knew this already" e.g., after a bad night of sleep, my sleep tracker telling me "you need to sleep more".
 
 
-the three non-sponsored devices i ended up with: [eight sleep](https://twitter.com/eightsleep) pod, [fitbit](https://twitter.com/fitbit) charge 4, [whoop](https://twitter.com/whoop) 3.0 
+&nbsp;
+
+
+the [quantified-self](https://en.wikipedia.org/wiki/Quantified_self) craze of 2010 finnally caught up with me in early 2020. i have sleep maintence problems, including waking up in the middle of the night (motn insomnia) or waking up early due to anxiety. i've had myocarditis a few times in the past, a minor heart condition. i also started a regular workout routine to help get through the coronavirus quarantine. all this culminated in a desire to better understand my sleep and heart rate, with an eye toward longevity. that and i keep hearing about hrv. 
+
+[heart rate variability (hrv)](https://en.wikipedia.org/wiki/Heart_rate_variability) is a time interval between heartbeats. athletes and podcasters have been extolling this metric as a proxy for physical recovery and as a predictor of sickness or injury. part of my interest in 24/7 heart rate tracking was to tap into this to get actionable insights. all other health data to date has been "so-what" or "i knew this already" e.g., after a night of little sleep, my sleep tracker telling me "you need to sleep more".
+
+
+_the three non-sponsored devices i ended up with:_ [eight sleep](https://twitter.com/eightsleep) pod, [fitbit](https://twitter.com/fitbit) charge 4, [whoop](https://twitter.com/whoop) 3.0 
 
 ## on price:
-1. whoop 3.0 band:    $324 for 18 months, then $30 month every month thereafter
-2. fitbit charge 4.0:   $150 
-3. eight sleep pod:  $500 (used on on craigslist)
+1. whoop 3.0 band:    **$324 for 18 months, then $30 month every month thereafter**
+2. fitbit charge 4.0:   **$150**
+3. eight sleep pod:  **$500 (used on on craigslist)**
 
 
 ## on comfort: 
@@ -27,15 +35,22 @@ eight sleep pod isn't loud, it gets suffciently hot and cold, and the mattress i
 
 ## on battery life:
 
-whoop gets a solid 4 days then starts bugging you to plug it in when it's below 20%
-fitbit charge 4: i've turned off most features: screen is off/dim, no notifications, 'always-connected' off. with these configurations it gets a solid 7 days 
+* whoop gets a solid 4 days then starts bugging you to plug it in when it's below 20%
+* fitbit charge 4: i've turned off most features: screen is off/dim, no notifications, 'always-connected' off. with these configurations it gets a solid 7 days 
 
-one of the coolest parts of the whoop is the way you charge it. it has a rechargable clip that sits ontop of the band that takes about 40 minutes. with this you dont need to take off the band. the fitbit charge 4.0 should charge this way, but unfortuantely as it is now you need to take it off to charge for about 1 hour.
+one of the coolest parts of the whoop is the way you charge it. it has a rechargable clip sits ontop of the band that takes about 40 minutes. with this you dont need to take off the band. the fitbit charge 4.0 should charge this way, but unfortuantely as it is now you need to take it off to charge for about 1 hour.
 
 ## on accuracy:
 
-the heartrate sensor on the whoop and the fitbit are close enough that differences didn't matter
-the sleep numbers I got from all three devices were close enough that differences didn't matter
+* the heartrate sensor on the whoop and the fitbit are close enough, differences didn't matter
+* the sleep numbers I got from all three devices were close enough, differences didn't matter
+
+⋅⋅whoop, eight, fitbit showing sleep data:
+
+<p align="center">
+<img src="https://github.com/maceip/maceip.github.io/blob/master/images/whoop_sleep.png" align="center">&nbsp;&nbsp;&nbsp;<img src="https://github.com/maceip/maceip.github.io/blob/master/images/eight_sleep.png" align="center">&nbsp;&nbsp;&nbsp;<img src="https://github.com/maceip/maceip.github.io/blob/master/images/fitbit_sleep.png" align="center">
+</p>
+
 
 ## on apps:
 
@@ -47,21 +62,21 @@ the eight sleep app feels like the jankiest of the three. priming the pump felt 
 
 as of april 2020, these devices all have some form of monthly membership:
 
-whoop 3.0 requires a $30/month membership, else your device is unusable
-fitbit has an optional $10/month (90 days free) membership to get access to 'premium' data like number of sleep disruptions 
-eight  has an optional $60/year (12 months free)  membership to get access to coaching
+* whoop 3.0 requires a $30/month membership, else your device is unusable
+* fitbit has an optional $10/month (90 days free) membership to get access to 'premium' data like number of sleep disruptions 
+* eight  has an optional $60/year (12 months free)  membership to get access to coaching
 
-what bothers me about this is the trend here: fitbit has taken away things that were once free, adding them to the paid membership; whoop used to allow you to buy the band but now requires you to pay monthly, forever. in the future i expect all these devices to require some form of monthly membership fee. i don't see how these businesses can survive without it. this is problematic because they aren't actually providing monthly *value*. The whoop band comes closest to the dream of quantified self: take action based on signals to improve quality of life. The strain/recovery coaching is superb. however, it's still in the realm of "i knew this already" as mentioned above.
+what bothers me about this is the trend here: fitbit has taken away things once free, adding them to the paid membership; whoop used to allow you to buy the band but now requires you to pay monthly, forever. in the future i expect all these devices to require some form of monthly membership fee. i don't see how these businesses can survive without it. this is problematic because they aren't actually providing monthly *value*. The whoop band comes closest to the dream of quantified self: take action based on signals to improve quality of life. The strain/recovery coaching is superb. however, it's still in the realm of "i knew this already" as mentioned above.
 
 ## results:
-do i sleep better? no. after nights with sleep elusive i'm loathe to even *open* these apps, yet whoop dutifully sends me a push notification: "get at least 6.2 hours sleep to get by". _thanks_.
-have i used hrv to better plan workouts, sleeping, or health in general? no. HRV is the new CBD. 
-why do i still measure? to show off to friends, and for fear that my heart will do something janky and somehow the data will help my doctor make sense of it.
+* do i sleep better? no. after nights with sleep elusive i'm loathe to even *open* these apps, yet whoop dutifully sends me a push notification: "get at least 6.2 hours sleep to get by". _thanks_.
+* have i used hrv to better plan workouts, sleeping, or health in general? no. **HRV is the new CBD**.
+* why do i still measure? to show off to friends, and for fear my heart will do something janky and somehow historic data will help my doctor make sense of it.
 
 ## future:
-canned videos of workouts and stretches, sleep scores, activity zones, strain, pseudo-coaching, re-defined or sham analytics and metrics: these are all things I already know and won't pay monthly for.
-tell me what foods im allergic to that i should stop eating
-tell me if there are issues in my stool
-tell me how my blood glucose responds to things 
-give me *real* insight that i currently don't have, and i'll gladly pay monthly. we are at the limit of value an led can provide beyond heart rate. 
+* canned videos of workouts and stretches, sleep scores, activity zones, strain, pseudo-coaching, re-defined or sham analytics and metrics: these are all things I already know and won't pay monthly for.
+* tell me what foods im allergic to and should stop eating
+* tell me if there are issues in my stool
+* tell me how my blood glucose responds to things 
+* give me *real* insight i currently don't have, and i'll gladly pay monthly. we are at the limit of value an led can provide beyond heart rate.
 
