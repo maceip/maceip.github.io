@@ -20,6 +20,7 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
+	 text-align: justify;
   color: $darkGray;
 }
 
@@ -49,10 +50,6 @@ h1 {
   a {
     color: inherit;
   }
-}
-.page__content {
-  text-align: justify;
-}
 
 h2 {
   font-size: 24px;
@@ -247,6 +244,7 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+  text-align: justify;
 }
 
 .posts > .post:last-child {
