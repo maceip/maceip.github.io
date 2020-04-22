@@ -4,7 +4,7 @@ title: on heart-rate, sleep tracking, and the future
 ---
 
 
-| <img src="https://github.com/maceip/maceip.github.io/blob/master/images/strap_header.jpg"> | 
+| ![bling bling]({{ site.baseurl }}/images/strap_header.jpg) | 
 |--:| 
 | *bling bling* |
 
@@ -48,7 +48,7 @@ one of the coolest parts of the whoop is the way you charge it. it has a recharg
 ⋅⋅whoop, eight, fitbit showing sleep data:
 
 <p align="center">
-<img src="https://github.com/maceip/maceip.github.io/blob/master/images/whoop_sleep.png" align="center">&nbsp;&nbsp;&nbsp;<img src="https://github.com/maceip/maceip.github.io/blob/master/images/eight_sleep.png" align="center">&nbsp;&nbsp;&nbsp;<img src="https://github.com/maceip/maceip.github.io/blob/master/images/fitbit_sleep.png" align="center">
+<img src="{{ site.baseurl }}/images/whoop_sleep.png" align="center">&nbsp;&nbsp;&nbsp;<img src="{{ site.baseurl }}/images/eight_sleep.png" align="center">&nbsp;&nbsp;&nbsp;<img src="{{ site.baseurl }}/images/fitbit_sleep.png" align="center">
 </p>
 
 
