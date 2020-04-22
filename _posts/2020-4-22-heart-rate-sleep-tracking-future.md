@@ -53,8 +53,10 @@ one of the coolest parts of the whoop is the way you charge it. it has a recharg
 + when it came to heart rate during the day time, the fitbit and whoop diverged quite a bit.
 
     - both failed to auto detect a 85 minute outdoor bootcamp style workout, so I added it manually:
+    
+    <p align="center">
+<img src="{{ site.baseurl }}/images/whoop_hr.png" align="center" width="350">&nbsp;&nbsp;&nbsp;<img src="{{ site.baseurl }}/images/fitbit_hr.png" align="center" width="350">
 
-![fitbit hr]({{ site.baseurl }}/images/fitbit_hr.png)![whoop hr]({{ site.baseurl }}/images/whoop_hr.png)
 
 above fitbit reports my heart rate went down to 63 in the middle of that span, which seems unlikely. i'll chalk it up to my band placement but it appears whoop is more accurate. fitbit reported 524 cals, and whoop 520. 
 
@@ -89,6 +91,6 @@ what bothers me about this is the trend here: fitbit has taken away things once 
 * tell me how my blood glucose responds to things 
 * give me *real* insight i currently don't have, and i'll gladly pay monthly. we are at the limit of value an led can provide beyond heart rate.
 
-| ![bling bling]({{ site.baseurl }}/images/wetjpg) | 
+| ![bling bling]({{ site.baseurl }}/images/wet.jpg) | 
 |--:| 
 | *that drip* |
