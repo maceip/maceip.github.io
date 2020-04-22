@@ -85,10 +85,10 @@ what bothers me about this is the trend here: fitbit has taken away things once 
 * why do i still measure? to show off to friends, and for fear my heart will do something janky and somehow historic data will help my doctor make sense of it.
 
 ## future:
-* canned videos of workouts and stretches, sleep scores, activity zones, strain, pseudo-coaching, re-defined or sham analytics and metrics: these are all things I already know and won't pay monthly for.
-* tell me what foods im allergic to and should stop eating
-* tell me if there are issues in my stool
-* tell me how my blood glucose responds to things 
++ canned videos of workouts and stretches, sleep scores, activity zones, strain, pseudo-coaching, re-defined or sham analytics and metrics: these are all things I already know and won't pay monthly for.
++ tell me what foods im allergic to and should stop eating
++ tell me if there are issues in my stool
++ tell me how my blood glucose responds to things 
 + **give me *real* insight i currently don't have, and i'll gladly pay monthly. we are closing in on the limit of value optical sensor devices can provide**[*](https://www.nature.com/articles/s41598-019-56927-5).
 
 | ![drip]({{ site.baseurl }}/images/wet.jpg) | 
