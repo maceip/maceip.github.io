@@ -58,7 +58,7 @@ one of the coolest parts of the whoop is the way you charge it. it has a recharg
 <img src="{{ site.baseurl }}/images/whoop_hr.png" align="center" width="300">&nbsp;&nbsp;&nbsp;<img src="{{ site.baseurl }}/images/fitbit_hr.png" align="center" width="300">
 
 
-above fitbit reports my heart rate went down to 63 in the middle of that span, which seems unlikely. i'll chalk it up to my band placement but it appears whoop is more accurate. fitbit reported 524 cals, and whoop 520. 
+above fitbit reports my heart rate went down to 63 in the middle of that span, which seems unlikely. i'll chalk it up to band placement but it appears whoop is more accurate. fitbit reported 524 cals, and whoop 520. 
 
 
 
@@ -89,7 +89,7 @@ what bothers me about this is the trend here: fitbit has taken away things once 
 * tell me what foods im allergic to and should stop eating
 * tell me if there are issues in my stool
 * tell me how my blood glucose responds to things 
-* give me *real* insight i currently don't have, and i'll gladly pay monthly. we are at the limit of value an led can provide beyond heart rate.
++ **give me *real* insight i currently don't have, and i'll gladly pay monthly. we are closing in on the limit of value optical sensor devices can provide**[*](https://www.nature.com/articles/s41598-019-56927-5).
 
 | ![drip]({{ site.baseurl }}/images/wet.jpg) | 
 |--:| 
