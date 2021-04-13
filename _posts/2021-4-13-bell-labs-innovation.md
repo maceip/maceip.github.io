@@ -25,20 +25,19 @@ was transcribed and published in the bell telephone systems technical publicatio
 
 I think brown crisply articulates the guard-rails he viewed essential for innovation. the beauty here isn't just the wisdom, but in how succint and relevant it is, 69 years later. below i've pasted the text in it's entirety:
 
-<center>
+<p align="center">
+<b>
+VITALITY OF A RESEARCH INSTITUTION AND HOW TO MAINTAIN IT
 
-## VITALITY OF A RESEARCH INSTITUTION AND HOW TO MAINTAIN IT
+by
 
-**by**
-
-**RALPH BOWN**
-
-**Vice-President, Research, Bell Telephone Laboratories**
-</center>
+RALPH BOWN<br>
+Vice-President, Research, Bell Telephone Laboratories
+</b></p>
 
 _IN DEALING WITH THIS SUBJECT_ I would like first to make clear the scope of my effort and then, avoiding generalities as much as possible, to get down to concrete ideas. 
 
-In spite of the fact-or perhaps because of the fact—that Research with a capital R has become a very common word in our language, it is necessary to go a little further than this word alone in order to give a clear understanding of what one is talking about. In my experience the desired understanding is not achieved by prefixing to research such modifying adjectives as basic, fundamental, foundational, applied, product, or any one of the other various qualifying names in common usage. This usually leads merely to long and profitless semantic arguments. For our purposes today let us simply say scientific research to distinguish from literary, economic or other fields, and then content ourselves with saying that we are here concerned with activities which comprise a considerable content of creative work—the uncovering of new knowledge or the achieving of new understandings or, alternatively, inventing new things or making new things work for the first time. Moreover, let us postulate that the activities, while not without concrete practical aims, are nevertheless not narrowly programmed to produce a particular result for a particular delivery date as their major reason for being. In brief, what we are talking about is creative, unscheduled scientific research. 
+In spite of the fact—or perhaps because of the fact—that Research with a capital R has become a very common word in our language, it is necessary to go a little further than this word alone in order to give a clear understanding of what one is talking about. In my experience the desired understanding is not achieved by prefixing to research such modifying adjectives as basic, fundamental, foundational, applied, product, or any one of the other various qualifying names in common usage. This usually leads merely to long and profitless semantic arguments. For our purposes today let us simply say scientific research to distinguish from literary, economic or other fields, and then content ourselves with saying that we are here concerned with activities which comprise a considerable content of creative work—the uncovering of new knowledge or the achieving of new understandings or, alternatively, inventing new things or making new things work for the first time. Moreover, let us postulate that the activities, while not without concrete practical aims, are nevertheless not narrowly programmed to produce a particular result for a particular delivery date as their major reason for being. In brief, what we are talking about is creative, unscheduled scientific research. 
 
 The set of words which I have just uttered is substantially a statement of what we at Bell Telephone Laboratories call research and put into our Research Department, in contradistinction to what we call dedevelopment and design work. 
 
