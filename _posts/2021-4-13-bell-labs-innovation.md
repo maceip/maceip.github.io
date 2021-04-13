@@ -1,10 +1,10 @@
 ---
 layout: post
-title: on corporate innovation, what made bell labs successful
+title: on corporate innovation and what made bell labs successful
 ---
 
 
-| ![innovate or die]({{ site.baseurl }}/images/bell.gif) | 
+| ![innovate or die]({{ site.baseurl }}/images/bell.png) | 
 |--:| 
 | *innovate or die* |
 
@@ -13,7 +13,7 @@ title: on corporate innovation, what made bell labs successful
 &nbsp;
 
 <p align="center">
-<img src="{{ site.baseurl }}/images/shock.png" align="center">&nbsp;&nbsp;&nbsp;
+<img src="{{ site.baseurl }}/images/shock_white.png" align="center">&nbsp;&nbsp;&nbsp;
 </p>
 
 i get excited about inventions and innovations, and was digging into how people and insitiutions make these things happen. much has been written on the subject: [crossing the chasm](https://www.harpercollins.com/products/crossing-the-chasm-3rd-edition-geoffrey-a-moore?variant=32130444066850), [the innovators dilemma](https://www.hbs.edu/faculty/Pages/item.aspx?num=46), 
