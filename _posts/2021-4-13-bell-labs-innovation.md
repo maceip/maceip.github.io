@@ -28,12 +28,12 @@ i think brown crisply articulates the guard-rails he viewed essential for innova
 <p align="center">
 <b>
 VITALITY OF A RESEARCH INSTITUTION AND HOW TO MAINTAIN IT
-
-by
+  </b><br>
+by<br>
 
 RALPH BOWN<br>
 Vice-President, Research, Bell Telephone Laboratories
-</b></p>
+</p>
 
 _IN DEALING WITH THIS SUBJECT_ I would like first to make clear the scope of my effort and then, avoiding generalities as much as possible, to get down to concrete ideas. 
 
