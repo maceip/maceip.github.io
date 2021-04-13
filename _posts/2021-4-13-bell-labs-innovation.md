@@ -23,7 +23,7 @@ but are not the topic today. i wanted to uncover the administration and decision
 luckily for us, the vp of research at bell telephone laboratories, ralph brown, gave a talk entitled "vitality of a research instiution and how to maintain it"  at the sixth annual conference on the administration of research in 1952. the talk
 was transcribed and published in the bell telephone systems technical publications journal, monograph 2207 (if you have an original please email me).
 
-I think brown crisply articulates the guard-rails he viewed essential for innovation. the beauty here isn't just the wisdom, but in how succint and relevant it is, 69 years later. below i've pasted the text in it's entirety:
+i think brown crisply articulates the guard-rails he viewed essential for innovation. the beauty here isn't just the wisdom, but in how succint and relevant it is, 69 years later. below i've pasted the text in it's entirety:
 
 <p align="center">
 <b>
