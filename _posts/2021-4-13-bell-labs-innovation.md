@@ -20,7 +20,7 @@ i get excited about inventions and innovations, and was digging into how people 
 [cycles of innovation and discovery](https://www.hup.harvard.edu/catalog.php?isbn=9780674967960), [the idea factory](https://www.penguinrandomhouse.com/books/303275/the-idea-factory-by-jon-gertner/), etc. to my dismay, quite a few people believe that we are in a period of great stagnation. the reasons cited for this suspected stagnation are vast and interesting,
 but are not the topic today. i wanted to uncover the administration and decisions that made places like bell labs great, and to make sure this information isn't lost in the dramatic, entertaining, and revisionist storytelling that nets book sales. 
 
-luckily for us, the vp of research at bell telephone laboratories, ralph brown, gave a talk entitled "vitality of a research instiution and how to maintain it"  at the sixth annual conference on the administration of research in 1952. the talk
+luckily for us, the vp of research at bell telephone laboratories, ralph brown, gave a talk titled: "vitality of a research instiution and how to maintain it"  at the sixth annual conference on the administration of research in 1952. the talk
 was transcribed and published in the bell telephone systems technical publications journal, monograph 2207 (if you have an original please email me).
 
 i think brown crisply articulates the guard-rails he viewed essential for innovation. the beauty here isn't just the wisdom, but in how succint and relevant it is, 69 years later. below i've pasted the text in it's entirety:
