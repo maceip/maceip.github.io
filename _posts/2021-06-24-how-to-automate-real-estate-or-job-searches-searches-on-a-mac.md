@@ -5,7 +5,7 @@ title: how to automate real estate or job searches searches on a mac
 
 
 <p align="center">
-<img src="{{ site.baseurl }}/images/shock_white.png" align="center">&nbsp;&nbsp;&nbsp;
+<img src="{{ site.baseurl }}/images/automate.jpeg" align="center">&nbsp;&nbsp;&nbsp;
 </p>
 
 recently i found myself waking up every day with computer chores: check the same websites every day and see if they had any new information for me. I wanted to free up this time so built out this simple automation script: once a day, if these sites change, send me an email. 
