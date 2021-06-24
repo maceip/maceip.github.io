@@ -8,13 +8,13 @@ title: how to automate real estate or job searches searches on a mac
 <img src="{{ site.baseurl }}/images/automate.jpeg" align="center">&nbsp;&nbsp;&nbsp;
 </p>
 
-recently i found myself waking up every day with computer chores: check the same websites every day and see if they had any new information for me. I wanted to free up this time so built out this simple automation script: once a day, if these sites change, send me an email. 
+recently i found myself waking up every day with computer chores: check websites and see if they had any new information for me. I wanted to free up this time so built out this simple automation script: once a day, if these sites change, send me an email. 
 
 it turns out there is a great tool written to do this: urlwatch
 
-i wanted it to run on my laptop, even when it might have been hibernating, so I opted to use Apple’s Launch Daemon.
+i wanted it to run on my laptop and to check a list of websites for changes once a day, so I opted to use Apple’s Launch Daemon. the cool side effect here is even if my laptop is hibernating the job will get scheduled .
 
-Here is how you can do something similar:
+Here is how i did it on macosx big sur 11.4
 
 Open Terminal, and set an editor:
 ```console
