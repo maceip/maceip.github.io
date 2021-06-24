@@ -14,7 +14,7 @@ here is how i did it on macosx big sur 11.4
 
 Open Terminal, and set an editor:
 {% include codeHeader.html %}
-```console
+```bash
 echo 'export EDITOR=nano' >> ~/.zshrc 
 ```
 Install urlwatch:
