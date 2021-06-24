@@ -1,6 +1,6 @@
 ---
 layout: post
-title: how to automate real estate or job searches searches on a mac
+title: how to automate real estate or job searches on a mac
 ---
 
 
