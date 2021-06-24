@@ -18,18 +18,21 @@ Open Terminal, and set an editor:
 echo 'export EDITOR=nano' >> ~/.zshrc 
 ```
 Install urlwatch:
-```console
+{% include codeHeader.html %}
+```bash
 pip3 install urlwatch
 ```
 find a page you want to monitor, in my case here is an example:
-```console
+{% include codeHeader.html %}
+```bash
 https://deshow.com/advance-search/?operation=en-venta&type=all&subtipo=all&location=isabela&status=all&keyword=&price_range_min=0&price_range_max=3000000&bathrooms=&bedrooms=&pageid=25409
 ```
 
 open google chrome developer tools and get the XPATH of where the new content will be displayed. [see how I do this here](https://www.youtube.com/watch?v=dvNDDg877cU)
 <br/>
 now add the details into urlwatch
-```console
+{% include codeHeader.html %}
+```bash
 urlwatch --edit
 name: “real estate watcher"
 url: "https://deshow.com/advance-search/?operation=en-venta&type=all&subtipo=all&location=isabela&status=all&keyword=&price_range_min=0&price_range_max=3000000&bathrooms=&bedrooms=&pageid=25409"
@@ -39,7 +42,8 @@ filter:
 
 let’s get email notifications working using gmail:
 
-```console
+{% include codeHeader.html %}
+```bash
 urlwatch --edit-config
 report:
   discord:
@@ -66,35 +70,42 @@ report:
 ```
 [turn on gmail app passwords (requires two factor)](https://myaccount.google.com/apppasswords)
 then type password here:
-```console
+{% include codeHeader.html %}
+```bash
 urlwatch --smtp-login
 ```
 
 run urlwatch for the first time to get current state:
-```console
+{% include codeHeader.html %}
+```bash
 urlwatch
 ```
 run it again to see if you have a good stable baseline:
-```console
+{% include codeHeader.html %}
+```bash
 urlwatch
 ```
 
 great! lets set up apple launch daemon:
-```console
+{% include codeHeader.html %}
+```bash
 sudo su
 nano /Library/Scripts/watch.sh
 ```
 script content:
-```console
+{% include codeHeader.html %}
+```bash
 #!/bin/bash
 	/usr/local/bin/urlwatch
 ```
 exit root:
-```console
+{% include codeHeader.html %}
+```bash
 exit
 ```
 apple loves plists, so let's set one up:
-```console
+{% include codeHeader.html %}
+```bash
 nano ~/Library/LaunchAgents/com.watch.plist 
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -119,7 +130,8 @@ nano ~/Library/LaunchAgents/com.watch.plist
 </plist>
 ```
 now let's add our script to launchcontrol:
-```console
+{% include codeHeader.html %}
+```bash
 sudo launchctl load -w ~/Library/LaunchAgents/com.watch.plist
 ```
 voilà! now you have a zero cost website monitor
