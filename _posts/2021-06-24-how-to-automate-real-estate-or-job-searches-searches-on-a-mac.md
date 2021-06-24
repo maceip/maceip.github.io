@@ -26,11 +26,12 @@ Install urlwatch:
 pip3 install urlwatch
 ```
 Find a page you want to monitor, in my case here is an example:
+```console
 "https://deshow.com/advance-search/?operation=en-venta&type=all&subtipo=all&location=isabela&status=all&keyword=&price_range_min=0&price_range_max=3000000&bathrooms=&bedrooms=&pageid=25409
-
+```
 
 Open google chrome developer tools and get the XPATH of where the new content will be displayed. See how I do this here:
-https://www.youtube.com/watch?v=dvNDDg877cU
+[https://www.youtube.com/watch?v=dvNDDg877cU]
 Now add the details into urlwatch
 ```console
 urlwatch --edit
@@ -67,7 +68,7 @@ report:
     subject: '{count} changes: {jobs}'
     to: 'YOUREMAIL'
 ```
-Turn on your gmail app password (requires two factor): https://myaccount.google.com/apppasswords
+Turn on your gmail app password (requires two factor): [https://myaccount.google.com/apppasswords]
 Then type password here:
 ```console
 urlwatch --smtp-login
@@ -86,9 +87,18 @@ Great! Lets set up Apple Launch Daemon:
 ```console
 sudo su
 nano /Library/Scripts/watch.sh
+```
+script content:
+```console
 #!/bin/bash
 	/usr/local/bin/urlwatch
+```
+exit root:
+```console
 exit
+```
+apple loves plists, so let's set it up:
+```console
 nano ~/Library/LaunchAgents/com.watch.plist 
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -111,5 +121,8 @@ nano ~/Library/LaunchAgents/com.watch.plist
     </dict>
 </dict>
 </plist>
+```
+Now let's add our script to LaunchControl:
+```console
 sudo launchctl load -w ~/Library/LaunchAgents/com.watch.plist
 ```
