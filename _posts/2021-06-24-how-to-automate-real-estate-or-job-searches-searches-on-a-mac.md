@@ -12,12 +12,12 @@ recently i found myself waking up every day with computer chores: check websites
 
 here is how i did it on macosx big sur 11.4
 
-Open Terminal, and set an editor:
+open terminal.app, and set an editor:
 {% include codeHeader.html %}
 ```bash
 echo 'export EDITOR=nano' >> ~/.zshrc 
 ```
-Install urlwatch:
+install urlwatch:
 {% include codeHeader.html %}
 ```bash
 pip3 install urlwatch
@@ -28,13 +28,17 @@ find a page you want to monitor, in my case here is an example:
 https://deshow.com/advance-search/?operation=en-venta&type=all&subtipo=all&location=isabela&status=all&keyword=&price_range_min=0&price_range_max=3000000&bathrooms=&bedrooms=&pageid=25409
 ```
 
-open google chrome developer tools and get the XPATH of where the new content will be displayed. [see how I do this here](https://www.youtube.com/watch?v=dvNDDg877cU)
-<br/>
+open google chrome developer tools and get the xpath of where the new content will be displayed. [see how I do this here](https://www.youtube.com/watch?v=dvNDDg877cU)
+<br/><br/>
 now add the details into urlwatch
 {% include codeHeader.html %}
 ```bash
 urlwatch --edit
-name: “real estate watcher"
+```
+content:
+{% include codeHeader.html %}
+```bash
+name: "real estate watcher"
 url: "https://deshow.com/advance-search/?operation=en-venta&type=all&subtipo=all&location=isabela&status=all&keyword=&price_range_min=0&price_range_max=3000000&bathrooms=&bedrooms=&pageid=25409"
 filter:
   - xpath: /html/body/div[1]/div/div/div/div[3]
@@ -142,4 +146,4 @@ now let's add our script to launchcontrol:
 ```bash
 sudo launchctl load -w ~/Library/LaunchAgents/com.watch.plist
 ```
-voilà! now you have a zero cost website monitor
+voilà! now you have a zero cost website monitor that runs once a day, even if your laptop is asleep.
