@@ -45,6 +45,10 @@ let’s get email notifications working using gmail:
 {% include codeHeader.html %}
 ```bash
 urlwatch --edit-config
+```
+content:
+{% include codeHeader.html %}
+```bash
 report:
   discord:
     embed: false
@@ -107,6 +111,10 @@ apple loves plists, so let's set one up:
 {% include codeHeader.html %}
 ```bash
 nano ~/Library/LaunchAgents/com.watch.plist 
+```
+content:
+{% include codeHeader.html %}
+```bash
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
