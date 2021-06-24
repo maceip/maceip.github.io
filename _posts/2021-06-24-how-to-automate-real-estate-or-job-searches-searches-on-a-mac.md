@@ -10,7 +10,7 @@ title: how to automate real estate or job searches searches on a mac
 
 recently i found myself waking up every day with computer chores: check websites and see if they had any new information for me. i wanted to free up this time so i built out an automated solution: once a day, if these sites change, send me an email. 
 
-Here is how i did it on macosx big sur 11.4
+here is how i did it on macosx big sur 11.4
 
 Open Terminal, and set an editor:
 ```console
@@ -20,12 +20,12 @@ Install urlwatch:
 ```console
 pip3 install urlwatch
 ```
-Find a page you want to monitor, in my case here is an example:
+find a page you want to monitor, in my case here is an example:
 ```console
 "https://deshow.com/advance-search/?operation=en-venta&type=all&subtipo=all&location=isabela&status=all&keyword=&price_range_min=0&price_range_max=3000000&bathrooms=&bedrooms=&pageid=25409
 ```
 
-Open google chrome developer tools and get the XPATH of where the new content will be displayed. See how I do this here:
+open google chrome developer tools and get the XPATH of where the new content will be displayed. See how I do this here:
 [[https://www.youtube.com/watch?v=dvNDDg877cU]]
 Now add the details into urlwatch
 ```console
@@ -36,7 +36,7 @@ filter:
   - xpath: /html/body/div[1]/div/div/div/div[3]
 ```
 
-Let’s get the email notification settings set up using gmail:
+let’s get email notifications working using gmail:
 
 ```console
 urlwatch --edit-config
@@ -63,22 +63,22 @@ report:
     subject: '{count} changes: {jobs}'
     to: 'YOUREMAIL'
 ```
-Turn on your gmail app password (requires two factor): [[https://myaccount.google.com/apppasswords]]
-Then type password here:
+turn on your gmail app password (requires two factor): [[https://myaccount.google.com/apppasswords]]
+then type password here:
 ```console
 urlwatch --smtp-login
 ```
 
-Run urlwatch for the first time to get current state:
+run urlwatch for the first time to get current state:
 ```console
 urlwatch
 ```
-Run it again to see if you have a good stable baseline:
+run it again to see if you have a good stable baseline:
 ```console
 urlwatch
 ```
 
-Great! Lets set up Apple Launch Daemon:
+great! Lets set up apple launch daemon:
 ```console
 sudo su
 nano /Library/Scripts/watch.sh
@@ -92,7 +92,7 @@ exit root:
 ```console
 exit
 ```
-apple loves plists, so let's set it up:
+apple loves plists, so let's set one up:
 ```console
 nano ~/Library/LaunchAgents/com.watch.plist 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -117,7 +117,7 @@ nano ~/Library/LaunchAgents/com.watch.plist
 </dict>
 </plist>
 ```
-Now let's add our script to LaunchControl:
+now let's add our script to launchcontrol:
 ```console
 sudo launchctl load -w ~/Library/LaunchAgents/com.watch.plist
 ```
