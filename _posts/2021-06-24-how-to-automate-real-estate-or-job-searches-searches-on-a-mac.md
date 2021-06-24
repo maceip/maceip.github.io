@@ -1,4 +1,4 @@
-<script src="/copyCode.js"></script>
+<script src="/images/copyCode.js"></script>
 ---
 layout: post
 title: how to automate real estate or job searches on a mac
