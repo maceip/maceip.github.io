@@ -24,8 +24,9 @@ body {
   color: $darkGray;
 }
 .code-header {
-  display: flex;
-  justify-content: flex-end;
+  height: 0;
+  z-index: 2;
+  position: relative;
 }
 
 .copy-code-button {
