@@ -32,11 +32,9 @@ body {
 .copy-code-button {
     position: absolute;
     right: 2.4rem;
-    top: 2.4rem;
-    padding: 0.6rem 1.2rem;
-    border-radius: 0.4rem;
-    --line-height: 1.83;
-    --font-size: 1.6rem;
+    top: .4rem;
+    display: grid;
+    grid-auto-flow: column;
 
   &::before {
     content: "Copy";
