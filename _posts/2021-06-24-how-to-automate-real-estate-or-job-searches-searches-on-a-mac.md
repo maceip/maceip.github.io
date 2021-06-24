@@ -1,3 +1,4 @@
+<script src="/assets/js/copyCode.js"></script>
 ---
 layout: post
 title: how to automate real estate or job searches on a mac
@@ -13,6 +14,7 @@ recently i found myself waking up every day with computer chores: check websites
 here is how i did it on macosx big sur 11.4
 
 Open Terminal, and set an editor:
+{% include codeHeader.html %}
 ```console
 echo 'export EDITOR=nano' >> ~/.zshrc 
 ```
