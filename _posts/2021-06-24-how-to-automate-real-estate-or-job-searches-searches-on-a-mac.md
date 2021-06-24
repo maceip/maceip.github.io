@@ -8,11 +8,7 @@ title: how to automate real estate or job searches searches on a mac
 <img src="{{ site.baseurl }}/images/automate.jpeg" align="center">&nbsp;&nbsp;&nbsp;
 </p>
 
-recently i found myself waking up every day with computer chores: check websites and see if they had any new information for me. I wanted to free up this time so built out this simple automation script: once a day, if these sites change, send me an email. 
-
-it turns out there is a great tool written to do this: urlwatch
-
-i wanted it to run on my laptop and to check a list of websites for changes once a day, so I opted to use Apple’s Launch Daemon. the cool side effect here is even if my laptop is hibernating the job will get scheduled .
+recently i found myself waking up every day with computer chores: check websites and see if they had any new information for me. i wanted to free up this time so i built out an automated solution: once a day, if these sites change, send me an email. 
 
 Here is how i did it on macosx big sur 11.4
 
@@ -21,7 +17,6 @@ Open Terminal, and set an editor:
 echo 'export EDITOR=nano' >> ~/.zshrc 
 ```
 Install urlwatch:
-
 ```console
 pip3 install urlwatch
 ```
@@ -31,7 +26,7 @@ Find a page you want to monitor, in my case here is an example:
 ```
 
 Open google chrome developer tools and get the XPATH of where the new content will be displayed. See how I do this here:
-[https://www.youtube.com/watch?v=dvNDDg877cU]
+[[https://www.youtube.com/watch?v=dvNDDg877cU]]
 Now add the details into urlwatch
 ```console
 urlwatch --edit
@@ -68,7 +63,7 @@ report:
     subject: '{count} changes: {jobs}'
     to: 'YOUREMAIL'
 ```
-Turn on your gmail app password (requires two factor): [https://myaccount.google.com/apppasswords]
+Turn on your gmail app password (requires two factor): [[https://myaccount.google.com/apppasswords]]
 Then type password here:
 ```console
 urlwatch --smtp-login
