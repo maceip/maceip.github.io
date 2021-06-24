@@ -26,6 +26,7 @@ https://deshow.com/advance-search/?operation=en-venta&type=all&subtipo=all&locat
 ```
 
 open google chrome developer tools and get the XPATH of where the new content will be displayed. [see how I do this here](https://www.youtube.com/watch?v=dvNDDg877cU)
+&nbsp;
 Now add the details into urlwatch
 ```console
 urlwatch --edit
