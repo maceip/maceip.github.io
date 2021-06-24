@@ -78,7 +78,7 @@ run it again to see if you have a good stable baseline:
 urlwatch
 ```
 
-great! Lets set up apple launch daemon:
+great! lets set up apple launch daemon:
 ```console
 sudo su
 nano /Library/Scripts/watch.sh
@@ -121,3 +121,4 @@ now let's add our script to launchcontrol:
 ```console
 sudo launchctl load -w ~/Library/LaunchAgents/com.watch.plist
 ```
+voilà! now you have a zero cost website monitor
