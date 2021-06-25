@@ -16,6 +16,7 @@ open terminal.app, and set an editor:
 {% include codeHeader.html %}
 ```bash
 echo 'export EDITOR=nano' >> ~/.zshrc 
+source ~/.zshrc
 ```
 install urlwatch:
 {% include codeHeader.html %}
