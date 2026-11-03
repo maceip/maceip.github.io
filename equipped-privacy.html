@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Equipped Browser Daybreak — Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #111; }
+    h1, h2 { color: #0a2540; }
+    .meta { color: #555; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Equipped Browser Daybreak — Privacy Policy</h1>
+  <p class="meta">Effective Date: November 2, 2026 · Zunftmax UG (haftungsbeschränkt)</p>
+  <h2>1. Overview & Local-First Architecture</h2>
+  <p>Equipped Browser Daybreak is a local-first web browser for iPhone. By default, your browsing history, bookmarks, security preferences, and credentials are stored locally on your device using iOS UserDefaults and the iOS Keychain.</p>
+  <h2>2. AI Model Router & Built-In Web AI</h2>
+  <ul>
+    <li><strong>Apple On-Device (SystemLanguageModel):</strong> Prompts and page context are processed locally on your device using Apple FoundationModels and NaturalLanguage frameworks. No data leaves your device.</li>
+    <li><strong>Apple Private Cloud Compute (PCC):</strong> When selected on supported Apple Intelligence devices, requests are routed through Apple FoundationModels under Apple’s Private Cloud Compute privacy guarantees.</li>
+    <li><strong>API Key (BYOK):</strong> Only if you explicitly provide your own API key and select the API Key backend (or enable fallback with a saved key), your chat prompt and active page summary are sent directly from your device to the configured HTTPS endpoint. Your API key is stored exclusively in your on-device Keychain.</li>
+  </ul>
+  <h2>3. Passkeys, WebAuthn & Credentials</h2>
+  <p>Passkeys (ES256/Ed25519) and saved credentials are stored in the iOS Keychain on your device and are never transmitted to Zunftmax servers.</p>
+  <h2>4. Data Retention & Deletion</h2>
+  <p>You can clear chat transcripts, delete stored credentials and passkeys in the Agent panel, and manage or delete bookmarks and history in the Library panel at any time. Uninstalling the app removes all local app data.</p>
+  <h2>5. Contact</h2>
+  <p>For privacy questions or support requests, contact Zunftmax UG (haftungsbeschränkt) at <a href="mailto:mac@devkeys.net">mac@devkeys.net</a>.</p>
+</body>
+</html>
